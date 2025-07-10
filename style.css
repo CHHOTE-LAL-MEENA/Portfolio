@@ -1086,6 +1086,7 @@ form textarea {
     .about-img img {
         margin: 10px 0;
         height: 12rem;
+        border: none;
     }
 
     .heading1 {
