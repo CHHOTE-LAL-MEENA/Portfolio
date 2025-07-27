@@ -616,6 +616,7 @@ body {
 
 .row img {
     width: 100%;
+    height: 100%;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
@@ -707,6 +708,7 @@ body {
 
 .contact-right {
     width: 100%;
+    padding-right: 50px;
 }
 
 .contact-list {
@@ -981,7 +983,7 @@ form textarea {
     .container1 {
         margin-bottom: 150px;
     }
-
+    
     .services-list {
         grid-template-columns: 1fr;
     }

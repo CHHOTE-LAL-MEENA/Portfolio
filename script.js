@@ -32,7 +32,7 @@ const observer = new IntersectionObserver(
       entry.target.classList.toggle("visible", entry.isIntersecting)
     );
   },
-  { threshold: 0.3 }
+  { threshold: 0.2 }
 );
 
 document
@@ -52,8 +52,7 @@ document.querySelectorAll("#navbar a").forEach((link) =>
 
 // Handle window load & resize
 function updateNavIcons() {
-  const isMobile = window.innerWidth <= 820;
-  navbar.classList.remove("active");
+  const isMobile = window.innerWidth <= 400;
   menuIcon.style.display = isMobile ? "block" : "none";
   closeIcon.style.display = "none";
 }
